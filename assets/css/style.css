@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   clear: both;
 }
 
@@ -222,17 +222,19 @@ input[type=submit] {
     margin: 0;
   }
   .main-section {
-    width: 45%;
+    width: 75%;
     margin: 0 auto;
+    margin-left: 25px; 
+  }
+  nav {
+    margin-right: 50px;
   }
 }
 
 @media screen (max-width: 768px) {
   body {
     width: 65%;
-  }
-
-  nav {
-    margin-right: 150px;
+    height: 65%;
+    padding-bottom: 50px;
   }
 }
