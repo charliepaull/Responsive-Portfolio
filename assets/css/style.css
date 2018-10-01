@@ -221,6 +221,9 @@ input[type=submit] {
     background-color: #a5ccc9;
     margin: 0;
   }
+  
+  .container {
+  }
   .main-section {
     width: 75%;
     margin: 0 auto;
@@ -229,12 +232,24 @@ input[type=submit] {
   nav {
     margin-right: 50px;
   }
+  footer {
+    position: sticky;
+    padding: none;
+  }
+  .footer-container {
+    padding-bottom: none;
+    line-height: 0;
+  }
 }
 
-@media screen (max-width: 768px) {
+label {
+  line-height: 2px;
+}
+
+/* @media screen (max-width: 768px) {
   body {
     width: 65%;
     height: 65%;
     padding-bottom: 50px;
   }
-}
+} */
